@@ -53,6 +53,7 @@ function App() {
           <MasSobreEventos></MasSobreEventos>
           <ComunicacionComponente></ComunicacionComponente>
           <CicloVida></CicloVida>
+          {/* hola cambio nuevo desde el pc de mesa */}
       </section>
       </header>
     </div>
