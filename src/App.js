@@ -54,6 +54,7 @@ function App() {
           <ComunicacionComponente></ComunicacionComponente>
           <CicloVida></CicloVida>
           {/* hola cambio nuevo desde el pc de mesa */}
+          {/* cambio 2 */}
       </section>
       </header>
     </div>
