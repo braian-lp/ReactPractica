@@ -55,6 +55,7 @@ function App() {
           <CicloVida></CicloVida>
           {/* hola cambio nuevo desde el pc de mesa */}
           {/* cambio 2 */}
+          {/* Cambio desde el portatil */}
       </section>
       </header>
     </div>
