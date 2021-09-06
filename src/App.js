@@ -8,6 +8,7 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos';
 import ComunicacionComponente from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
+import AjaxApi from './components/AjaxApis';
 
 function App() {
   return (
@@ -53,9 +54,7 @@ function App() {
           <MasSobreEventos></MasSobreEventos>
           <ComunicacionComponente></ComunicacionComponente>
           <CicloVida></CicloVida>
-          {/* hola cambio nuevo desde el pc de mesa */}
-          {/* cambio 2 */}
-          {/* Cambio desde el portatil */}
+          <AjaxApi></AjaxApi>
       </section>
       </header>
     </div>
