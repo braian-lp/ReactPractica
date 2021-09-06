@@ -3,7 +3,7 @@ import React,{Component} from "react";
 function EstadoAHijo(props){
     return(
         <div>
-            <h3>{props.conatdorHijo}</h3>
+            <h3>{props.contadorHijo}</h3>
         </div>
     )
 }
@@ -27,7 +27,7 @@ export default class Estado extends Component{
             <div>
                 <h2>El state</h2>
                 <p>{this.state.contador}</p>
-                <EstadoAHijo conatdorHijo={this.state.contador} />
+                <EstadoAHijo contadorHijo={this.state.contador} />
             </div>
         );
     }
