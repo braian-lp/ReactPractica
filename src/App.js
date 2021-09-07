@@ -9,6 +9,9 @@ import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos';
 import ComunicacionComponente from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
 import AjaxApi from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
+import ScrollHook from './components/ScrollHook';
+import RelojHook from './components/RelojHook';
 
 function App() {
   return (
@@ -55,6 +58,9 @@ function App() {
           <ComunicacionComponente></ComunicacionComponente>
           <CicloVida></CicloVida>
           <AjaxApi></AjaxApi>
+          <ContadorHooks msg="mensaje como props"></ContadorHooks>
+          <ScrollHook></ScrollHook>
+          <RelojHook></RelojHook>
       </section>
       </header>
     </div>

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 class Reloj extends Component{
     /* constructor(props){
-        super(props);
+        super(props); 
     } */
 
     componentWillUnmount(){
