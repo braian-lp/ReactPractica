@@ -5,7 +5,7 @@ export default function ScrollHook(props){
 
     useEffect(() => {
 
-        console.log('Moviendo el Scroll');
+        /* console.log('Moviendo el Scroll'); */
 
         const detectarScroll = ()=> {
             setScrollY(window.pageYOffset);

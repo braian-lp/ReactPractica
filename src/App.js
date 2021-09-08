@@ -12,6 +12,7 @@ import AjaxApi from './components/AjaxApis';
 import ContadorHooks from './components/ContadorHooks';
 import ScrollHook from './components/ScrollHook';
 import RelojHook from './components/RelojHook';
+import AjaxApiHook from './components/AjaxApisHook';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <ContadorHooks msg="mensaje como props"></ContadorHooks>
           <ScrollHook></ScrollHook>
           <RelojHook></RelojHook>
+          <AjaxApiHook></AjaxApiHook>
       </section>
       </header>
     </div>
