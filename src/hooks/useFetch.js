@@ -13,11 +13,12 @@ export const useFetch=(url)=>{
                 let res = await fetch(url);
 
                 if(!res.ok){
-                    throw {
+                    console.log("error");
+                    /* throw {
                         err:true,
                         status:res.status,
                         statusText: res.statusText || "Ocurrio un error"
-                    };
+                    }; */
                 }
 
                 let data = await res.json();
@@ -26,8 +27,9 @@ export const useFetch=(url)=>{
                 setError({err:false});
 
             } catch (err) {
-                setIsPending(true);
-                setError(err);
+                console.log("hubo un error");
+                /* setIsPending(true);
+                setError(err); */
             }  
         };
 
