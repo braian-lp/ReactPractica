@@ -1,4 +1,5 @@
-import React,{createRef, useRef} from 'react';
+import React,{useRef} from 'react';
+/* import React,{createRef, useRef} from 'react'; */
 
 export default function Referencias(){ //manipulacion del DOM sin js nativo
     
@@ -33,7 +34,8 @@ export default function Referencias(){ //manipulacion del DOM sin js nativo
             <h2>Referencias </h2>
             <button id="menu-btn" ref={refMenuBtn} onClick={handleToggleMenu}>Menu</button>
             <nav id="menu" ref={refMenu} style={{display: "none"}}>
-                <a href="#">Seccion 1</a>
+                <p>Descomentar en el codigo para ver los enlaces</p>
+               {/*  <a href="#">Seccion 1</a>
                 <br/>
                 <a href="#">Seccion 2</a>
                 <br/>
@@ -41,7 +43,7 @@ export default function Referencias(){ //manipulacion del DOM sin js nativo
                 <br/>
                 <a href="#">Seccion 4</a>
                 <br/>
-                <a href="#">Seccion 5</a>
+                <a href="#">Seccion 5</a> */}
             </nav>
         </>
     )

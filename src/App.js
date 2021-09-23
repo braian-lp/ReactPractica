@@ -15,6 +15,8 @@ import RelojHook from './components/RelojHook';
 import AjaxApiHook from './components/AjaxApisHook';
 import HookPesonalizado from './components/HookPersonalizado';
 import Referencias from './components/Referencias';
+import Formularios from './components/Formularios';
+import Estilo from './components/Estilos';
 
 function App() {
   return (
@@ -67,6 +69,14 @@ function App() {
           <AjaxApiHook></AjaxApiHook>
           <HookPesonalizado></HookPesonalizado>
           <Referencias></Referencias>
+          <Formularios></Formularios>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <Estilo></Estilo>
+
       </section>
       </header>
     </div>
